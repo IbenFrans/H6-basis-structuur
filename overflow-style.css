@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+main{
+    height: 400px;
+    width: 400px;
+    background-color: #a8a6a6;
+    padding: 50px;
+    overflow: auto;
+}

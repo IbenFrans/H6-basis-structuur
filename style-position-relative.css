@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article {
+    width: 300px;
+    padding: 30px;
+    background-color: #f1f0f1;
+    border: 1px solid #2c2c2c;
+    position: relative;
+}
+article#box2{
+    left: 50px;
+    bottom: 50px;
+    /* right: -50px;
+        top: -50px;
+     */
+    z-index: 1;
+}
+article#box1{
+    z-index: 2;
+    /* hoe hoger nummer hoe meer in de voorgrond deze komt*/
+}
