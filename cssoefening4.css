@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri Light", sans-serif;
+}
+body{
+    background-image: url("assets/achtergrond.png");
+}
+header{
+    width: 960px;
+    transform: translate(0px, 0px);
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #2F4F4F;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+main section{
+    height: 800px;
+}
+main section article{
+    background-color: #CCCCCC;
+}
+footer a{
+    background-color: #2F4F4F;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
