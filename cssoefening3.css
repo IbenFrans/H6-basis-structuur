@@ -5,17 +5,14 @@
     font-family: Arial, sans-serif;
 }
 header{
-    width: 600px;
+    width: 100%;
+    padding: 25px;
     margin: 0 auto 0 -300px;
     background-color: #ffffff;
     position: fixed;
     z-index: 99;
     top: 0;
     left: 50%;
-}
-header h1{
-    padding: 20px;
-
 }
 main{
     width: 600px;
@@ -36,7 +33,7 @@ main section{
 main section h2{
     margin: 0 0 10px 0;
 }
-main section p.grass, p.poison, p.fire, p.flying{
+main section p.type{
     display: inline-block;
     padding: 5px;
     width: 100px;

@@ -6,20 +6,16 @@
 }
 /* Screen */
 #titlescreen h1{
-    width: 800px;
     text-align: center;
-    margin: 30px auto;
+    padding: 25px;
 }
 #titlescreen{
-    width: 800px;
-    margin: 0 auto;
+    text-align: center;
+    padding: 25%;
 }
 img{
-    width: 100px;
-    position: relative;
-    margin: 0 50px 50px 50px;
-    top: 0px;
-    left: 100px;
+    width: 13%;
+    margin: 4% 7%;
 }
 
 /* tablet */
@@ -31,9 +27,16 @@ header, main{
     border: 2px solid #000000;
     margin: 10px auto;
 }
-main #tablet iframe{
-    border: 10px solid #000000;
+#tablet{
+    border: 40px solid #000;
+    border-radius: 15%;
     background-color: #ffffff;
-    height: 768px;
-    width: 1024px;
+    width: 950px;
+    height: 600px;
+    margin: 0 auto;
+}
+iframe{
+    border: none;
+    width: 870px;
+    height: 520px;
 }

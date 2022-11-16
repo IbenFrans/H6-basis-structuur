@@ -23,6 +23,7 @@ main div{
     height: 300px;
     border: 2px solid #000000;
     position: absolute;
+    box-shadow: #000 5px 5px 5px;
     border-radius: 25px;
 
 }
@@ -38,6 +39,7 @@ main div{
     top: 25px;
     left: 25px;
     z-index: 4;
+    /* opacity: 0.8 */
 }
 #box3{
     background-color: #FF571860;
@@ -52,6 +54,7 @@ main div{
     top: 75px;
     left: 75px;
     z-index: 2;
+
 }
 #box5{
     background-color: #FF571820;
